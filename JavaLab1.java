@@ -42,9 +42,7 @@ public class JavaLab1 {
                                    ", Age: " + age);
             }
 
-            rs.close();
-            selectStmt.close();
-            con.close();
+          
 
         } catch (Exception e) {
             e.printStackTrace();
