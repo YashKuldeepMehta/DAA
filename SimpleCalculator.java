@@ -1,6 +1,3 @@
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.*;
 
 public class SimpleCalculator extends JFrame implements ActionListener {
 
