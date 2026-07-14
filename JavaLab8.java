@@ -1,31 +1,4 @@
-// Base class
-class Animal {
-    String name;
 
-    // Constructor
-    Animal(String name) {
-        this.name = name;
-    }
-
-    // Method to display info
-    void display() {
-        System.out.println("Animal name: " + name);
-    }
-
-    // Method to be overridden
-    void sound() {
-        System.out.println("Animal makes a sound");
-    }
-
-    // Method Overloading (same method name, different parameters)
-    void eat() {
-        System.out.println(name + " eats food");
-    }
-
-    void eat(String food) {
-        System.out.println(name + " eats " + food);
-    }
-}
 
 // Derived class (Inheritance)
 class Dog extends Animal {
