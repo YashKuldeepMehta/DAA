@@ -1,5 +1,4 @@
-import java.io.*;
-import java.util.*;
+
 
 class WriteThread extends Thread {
     public void run() {
